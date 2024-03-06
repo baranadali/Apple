@@ -10,8 +10,8 @@ export default function Homepage() {
     return (
         <div>
             <Header bgcolor="rgba(22, 22, 23, .8)"/>
-                <div className="relative bg-red-300">
-                    <video className="object-cover mobile:h-[500px]" width='100%' height='100%' loop autoPlay muted playsInline>
+                <div className="relative h-[748px]">
+                    <video className="object-cover mobile:h-[500px] h-full" width='100%' height='100%' loop autoPlay muted playsInline>
                         <source src={Video}/>
                     </video>
                     <div className="absolute bottom-16 flex flex-col items-center justify-center w-full gap-2">
