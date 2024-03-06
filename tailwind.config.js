@@ -5,6 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      SfProBold: ["sfProBold", "sans-serif"],
+    },
     screens: {
       mobile: { 'max': '768px' },
     },

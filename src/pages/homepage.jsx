@@ -4,36 +4,32 @@ import VisualImage from '../assets/images/vision-logo.png'
 
 import {Link} from "react-router-dom";
 import { IoIosArrowForward } from "react-icons/io";
+import Iphone15Pro from "../components/iphone-15-pro.jsx";
+import Iphone15 from "../components/iphone-15.jsx";
+import CtaLinks from "../components/cta-links.jsx";
 
 
 export default function Homepage() {
     return (
         <div>
             <Header bgcolor="rgba(22, 22, 23, .8)"/>
-                <div className="relative h-[748px]">
+            <div className="relative h-[748px] mobile:h-auto">
                     <video className="object-cover mobile:h-[500px] h-full" width='100%' height='100%' loop autoPlay muted playsInline>
                         <source src={Video}/>
                     </video>
-                    <div className="absolute bottom-16 flex flex-col items-center justify-center w-full gap-2">
-                        <div>
-                            <img className="w-1/2 mobile:w-[550px] mobile:h-[100%] mx-auto h-auto" src={VisualImage}/>
+                    <div className="absolute bottom-16 mobile:bottom-8 flex flex-col items-center justify-center w-full gap-2">
+                        <div className="h-[36px] mobile:h-[28px] mobile:w-full">
+                            <img className="w-full h-full mx-auto object-cover" src={VisualImage}/>
                         </div>
                         <div className="w-1/2 mx-auto">
-                            <h3 className="text-shark text-[28px] mobile:text-[19px] text-center leading-[23px]">Welcome to the era of spatial computing.</h3>
+                            <h3 className="text-shark text-[24px] mobile:text-[19px] text-center leading-[23px]">Welcome to the era of spatial computing.</h3>
                         </div>
-                        <div className="flex gap-10">
-                            <div className="flex items-center gap-1">
-                                <Link className="text-science-blue text-[21px] mobile:text-[17px]" to="/">Learn more</Link>
-                                <IoIosArrowForward className="text-science-blue flex items-center justify-center" />
-                            </div>
-                            <div className="flex items-center gap-1">
-                                <Link className="text-science-blue text-[21px] mobile:text-[17px]" to="/">Buy</Link>
-                                <IoIosArrowForward className="text-science-blue flex items-center justify-center" />
-                            </div>
-                        </div>
+                        <CtaLinks/>
                     <div/>
                 </div>
             </div>
+            <Iphone15Pro/>
+            <Iphone15/>
         </div>
     )
 }

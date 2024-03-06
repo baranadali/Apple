@@ -11,6 +11,10 @@
     font-family: "SfProRegular";
     src: url('./assets/fonts/sf-pro/SF-Pro-Display-Regular.otf');
 }
+@font-face {
+    font-family: "SfProBold";
+    src: url('./assets/fonts/sf-pro/SF-Pro-Display-Bold.otf');
+}
 
 body {
     font-family: SfProRegular, sans-serif;
