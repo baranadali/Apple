@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.active {
+    color: white !important;
+}
+
+@font-face {
+    font-family: "SfProRegular";
+    src: url('./assets/fonts/sf-pro/SF-Pro-Display-Regular.otf');
+}
+
+body {
+    font-family: SfProRegular, sans-serif;
+}
