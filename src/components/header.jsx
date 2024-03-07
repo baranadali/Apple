@@ -2,7 +2,7 @@ import {NavItem} from '../datas/nav.js'
 import {Link, NavLink} from "react-router-dom";
 
 import {useState} from "react";
-import NavSearch from "../components/nav-search.jsx"
+import NavSearch from ".//nav-search.jsx"
 
 export default function Header({bgcolor}) {
     return (

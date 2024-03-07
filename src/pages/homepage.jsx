@@ -7,6 +7,12 @@ import { IoIosArrowForward } from "react-icons/io";
 import Iphone15Pro from "../components/iphone-15-pro.jsx";
 import Iphone15 from "../components/iphone-15.jsx";
 import CtaLinks from "../components/cta-links.jsx";
+import Watch from "../components/watch.jsx";
+import MacbookPro from "../components/macbook-pro.jsx";
+import Ipad from "../components/ipad.jsx";
+import AirpodsProComp from "../components/airpods-pro-comp.jsx";
+import AppleCard from "../components/apple-card.jsx";
+import Trade from "../components/trade.jsx";
 
 
 export default function Homepage() {
@@ -30,6 +36,14 @@ export default function Homepage() {
             </div>
             <Iphone15Pro/>
             <Iphone15/>
+            <div className="m-2 grid grid-cols-2 mobile:grid-cols-1">
+                <Watch/>
+                <MacbookPro/>
+                <Ipad/>
+                <AirpodsProComp/>
+                <AppleCard/>
+                <Trade/>
+            </div>
         </div>
     )
 }
