@@ -13,6 +13,7 @@ import Ipad from "../components/ipad.jsx";
 import AirpodsProComp from "../components/airpods-pro-comp.jsx";
 import AppleCard from "../components/apple-card.jsx";
 import Trade from "../components/trade.jsx";
+import Slider from "../components/slider.jsx";
 
 
 export default function Homepage() {
@@ -44,6 +45,7 @@ export default function Homepage() {
                 <AppleCard/>
                 <Trade/>
             </div>
+            <Slider/>
         </div>
     )
 }

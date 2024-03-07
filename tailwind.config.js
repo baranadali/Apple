@@ -17,8 +17,12 @@ export default {
       },
       colors : {
         "woodsmoke": "#161617",
+        "athens" : "#F5F5F7",
         "shark": "#1D1D1F",
         "science-blue" : "#0066CC",
+        "appleblack" : {
+          72: "rgba(0, 0, 0, 0.72)"
+        },
         "nero": {
           80: "rgba(255, 255, 255, 0.8)",
         }
