@@ -36,7 +36,7 @@ export default function Homepage() {
             </div>
             <Iphone15Pro/>
             <Iphone15/>
-            <div className="m-2 grid grid-cols-2 mobile:grid-cols-1">
+            <div className="m-2 mobile:m-0 grid grid-cols-2 mobile:grid-cols-1">
                 <Watch/>
                 <MacbookPro/>
                 <Ipad/>
