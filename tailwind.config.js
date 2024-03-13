@@ -7,6 +7,8 @@ export default {
   theme: {
     fontFamily: {
       SfProBold: ["sfProBold", "sans-serif"],
+      SfProSemiBold: ["SfProSemiBold", "sans-serif"],
+      SfPro: ["SfProRegular", "sans-serif"],
     },
     screens: {
       mobile: { 'max': '768px' },

@@ -12,7 +12,7 @@ function App() {
           <Route path="/" element={<Homepage/>}></Route>
           <Route path="/airpods-pro" element={<AirpodsPro/>}></Route>
       </Routes>
-
+        <Footer/>
     </BrowserRouter>
   )
 }

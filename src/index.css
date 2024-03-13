@@ -14,6 +14,9 @@
 @font-face {
     font-family: "SfProBold";
     src: url('./assets/fonts/sf-pro/SF-Pro-Display-Bold.otf');
+}@font-face {
+    font-family: "SfProSemiBold";
+    src: url('./assets/fonts/sf-pro/SF-Pro-Display-Semibold.otf');
 }
 
 body {
